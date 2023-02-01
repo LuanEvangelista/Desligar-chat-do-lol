@@ -1,14 +1,15 @@
-# Desligar-chat-do-lol
-Arquivo .bat para desligar ou ligar o chat do jogo League of legends -ou LoL-
+# README
 
-Estes códigos é um comando do Windows PowerShell que deleta uma regra específica do firewall do Windows.
+Este é um comando de linha de comando (cmd) do Windows que permite excluir uma regra de firewall no Windows.
 
-"netsh" é um utilitário de linha de comando que permite a você exibir e modificar as configurações de rede do Windows. "advfirewall" é um contexto do comando que permite que você gerencie o firewall do Windows.
+## Uso
+Para usar este comando, abra o com privilégios administrativos e execute.
 
-"firewall delete rule" é um comando que deleta uma regra específica do firewall. "name="lolchat"" especifica qual regra deve ser deletada, no caso, a regra chamada "lolchat".
+## O que ele faz
+Este comando exclui uma regra de firewall específica, com o nome "lolchat", permitindo que as conexões com esse nome sejam bloqueadas pela firewall. É importante ter cuidado ao excluir regras de firewall, pois isso pode afetar a segurança do sistema.
 
-Então, este código deleta uma regra específica do firewall do Windows, chamada "lolchat" usando o comando "netsh advfirewall firewall delete rule name="lolchat"".
+## Nota
+Este comando é específico para o Windows e pode não funcionar em outros sistemas operacionais. Além disso, é importante lembrar que o nome da regra deve ser o mesmo que o especificado no comando acima para que a exclusão seja bem-sucedida.
 
-Note que essa é uma ação potencialmente perigosa, pois pode comprometer a segurança do sistema, portanto, é importante ter certeza de que essa regra não é necessária antes de deletá-la.
 
-Basta executar como administrador o arquivo desejado - Com o jogo a aberto-
+
